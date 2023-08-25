@@ -1,0 +1,32 @@
+.home-wrapper {
+	.main-banner {
+		position: relative;
+		padding: 15px;
+		overflow: hidden;
+		.main-banner-content {
+			position: absolute;
+			top: 12%;
+			left: 15%;
+			h4 {
+				font-size: 18px;
+				font-weight: 600;
+				color: var(--primary-orange);
+				text-transform: uppercase;
+				margin-bottom: 12px;
+				line-height: 24px;
+			}
+			h5 {
+				font-size: 45px;
+				font-weight: 500;
+				text-transform: none;
+				line-height: 54px;
+			}
+			p {
+				font-size: 17px;
+				color: var(--primary-dark);
+				font-weight: 400;
+				line-height: 28px;
+			}
+		}
+	}
+}
